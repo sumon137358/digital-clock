@@ -1,0 +1,15 @@
+.container-clock{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height:100vh;
+
+}
+.container-clock p{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
