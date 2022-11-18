@@ -18,17 +18,19 @@ function displayTime(){
          seconds =0;
       
        }
-     else{
+    
       seconds++;
       message5.innerText ="0" +seconds;
-     }
+     
    
        if(seconds===5){
+       
          minutes++;
          message3.innerText ="0" +minutes;
        }
        if(minutes>=5 ){
          minutes =0;
+         message3.innerText ="0" +minutes;
          hours++;
          message1.innerText =hours;
 
